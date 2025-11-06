@@ -1,0 +1,106 @@
+/* ---------- Projects Page ---------- */
+.projects-container{
+  min-height: 100vh; /* ensures it can expand with content */
+  overflow-y: visible; /* allow scrolling if content overflows */
+  padding: 60px 0;
+  color: white;
+  gap: 30px;
+  text-align: center;
+}
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* Page Title */
+.projects-container h1 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #ff6b81;
+}
+
+/* Grid layout for project cards */
+.projects-grid {
+  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  flex-direction: column;
+}
+
+/* Each Project Card */
+.project-card {
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 9px rgba(245, 244, 244, 0.311);
+  transition: transform 0.3s ease;
+  width: 720px;
+  height: 430px;
+  margin: auto;
+  justify-content: center;
+  backdrop-filter: blur(20px);
+
+}
+
+/* Hover effect */
+.project-card:hover {
+  transform: translateY(-8px);
+}
+
+/* Project Image */
+.project-card img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Title and Description */
+.project-card h2 {
+  font-size: 1.3rem;
+  margin: 10px 0;
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #ddd;
+}
+
+/* Tech Stack */
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+  margin: 10px 0;
+}
+
+.tech-stack li {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.tech-stack li:hover {
+    color: #E06B80;
+    transform: translateY(-3px);
+}
+/* GitHub Link Button */
+.project-links a {
+  display: inline-block;
+  margin-top: 10px;
+  background: white;
+  color: #E06B80;
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.project-links a:hover {
+  background: #E06B80;
+  color: white;
+}

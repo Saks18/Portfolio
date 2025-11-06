@@ -1,0 +1,27 @@
+.footer {
+  text-align: center;
+  padding: 15px 0;
+  color: #fff;
+  background-color: rgba(0, 0, 0,0.9);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 1.8rem;
+  margin: 0 12px;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ff6b81; /* soft pink accent */
+  transform: scale(1.2);
+}
