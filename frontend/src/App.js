@@ -11,7 +11,7 @@ import "./App.css";
 function App() {
   return (
     <Router>
-      <StarParticles />
+      {/* <StarParticles /> */}
       <div style={{zIndex: 1, position: "relative"}}>
         <Navbar />
         <main>
