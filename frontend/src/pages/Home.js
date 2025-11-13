@@ -2,7 +2,6 @@ import React from "react";
 import "./Home.css";
 import { FaLinkedin, FaGithub} from "react-icons/fa";
 
-
 function Home() {
   return (
     <>
@@ -39,7 +38,7 @@ function Home() {
           </div>
         </div>
         <div className="image">
-          <img src="/sakshi2.jpeg" alt="Sakshi" />
+          <img src="/Sakshi2.jpeg" alt="Sakshi" />
           <h2>Full Stack Developer</h2>
         </div>
       </section>
